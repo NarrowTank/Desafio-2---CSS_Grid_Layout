@@ -1,0 +1,20 @@
+.services-listing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem; 
+    justify-items: center; 
+    align-items: center; 
+    font-style: italic;
+    height: 100vh;
+}
+
+.service {
+    background-color: #e3fae9;
+    padding: .5rem;
+}
+
+.service p {
+    margin: 0;
+    text-align: center;
+}
